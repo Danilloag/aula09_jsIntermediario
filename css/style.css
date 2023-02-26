@@ -1,0 +1,46 @@
+.box {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 12px;
+}
+
+.formulario {
+    width: 300px;
+    height: 250px;
+    background-color: rgba(0, 128, 128, 0.735);
+    border-radius: 12px;
+    display: grid;
+    padding: 24px;
+}
+
+form {
+    display:grid;
+    justify-content: center;
+}
+
+#button-validar, input {
+    border: 1px solid gray;
+    border-radius: 6px;
+    height: 25px;
+}
+
+.msgCpfCorreto, .msgPreenchimentoCompleto {
+    border: 1px solid #008000;
+    background-color: #66f866;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.msgCpfIncorreto, .msgPreenchimentoIncompleto {
+    border: 1px solid #ff0000;
+    background-color: #ffabab;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.msgCpfCorreto, .msgPreenchimentoCompleto, .msgCpfIncorreto, .msgPreenchimentoIncompleto {
+    display: none;
+}
